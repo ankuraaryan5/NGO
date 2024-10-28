@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <nav
+      class="flex w-full items-center justify-between flex-wrap bg-teal-500 p-6"
+    >
+      <div class="flex w-1/3 items-center flex-shrink-0 text-white text-3xl">
+        <a href="/">Apna Ghar</a>
+      </div>
+      <div class="block md:hidden">
+        <button
+          class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-blue-200 hover:border-blue-200"
+          onclick="toggleMenu()"
+        >
+          <svg
+            class="fill-current h-6 w-6"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+    
+      <!-- Nav Links -->
+      <div
+        id="nav-links"
+        class="hidden md:flex md:items-center md:w-2/3 w-full flex-col md:flex-row transition-all duration-300 ease-in-out"
+      >
+        <div
+          class="flex flex-col md:flex-row w-full md:w-1/2 justify-around font-bold text-white text-2xl gap-4"
+        >
+          <a href="/contact.html" class="hover:text-blue-200 transition duration-200">Contact</a>
+          <a href="/services.html" class="hover:text-blue-200 transition duration-200">Services</a>
+          <a href="/volunteer.html" class="hover:text-blue-200 transition duration-200">Volunteer</a>
+        </div>
+    
+        <!-- Donate Button -->
+        <div class="flex md:w-1/2 md:justify-end mt-4 md:mt-0">
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-200"
+          >
+            <a href="/donation.html">Donate Now</a>
+          </button>
+        </div>
+    </nav>
+    <section class="flex flex-col items-center justify-center min-h-screen gap-6 text-center p-6 bg-cover bg-center services ">
+        
+        <div class=" flex flex-col w-full sm:w-3/4 md:w-1/2 bg-white bg-opacity-80 rounded-lg p-6 text-gray-800 gap-4 ">
+          <h1 class="text-4xl font-bold text-center">Our Services</h1>
+          <p class="text-lg italic">At Apna Ghar, we are committed to enhancing the quality of life for the elderly. Our dedicated team provides a range of services tailored to meet the unique needs of seniors in our community. We offer daily companionship to combat loneliness and promote mental well-being. Our healthcare services include regular check-ups, medication management, and health workshops designed to empower our seniors.</p>
+          <p class="text-lg italic">We also provide nutritious meal programs, ensuring that our elderly have access to balanced diets. Our transportation services assist seniors in attending medical appointments and community events, fostering independence. Additionally, we offer educational workshops that focus on skill development and lifelong learning.</p>
+          <p class="text-lg italic">At Apna Ghar, we believe in creating a supportive environment where every elderly individual feels valued and cared for. Join us in making a difference in their lives.</p>
+          <a href="/donation.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-200">Donate For the Cause</a>
+          <a href="/volunteer.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-200">Join Our Team as a Volunteer</a>
+        </div>
+    </section>
+    <footer class="bg-teal-500 text-white  py-4 text-center">
+        <p>&copy; 2023 Apna Ghar. All rights reserved.</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>

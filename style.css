@@ -1,0 +1,31 @@
+.hero{
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.mission{
+    background-image: url('./images/mission.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact {
+    background-image: url('./images/contact-bg.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+}
+.volunteer {
+    background-image: url('./images/volunteer.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+}
+.services {
+    background-image: url('./images/services.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+}
+.donate {
+    background-image: url('./images/donate.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+}
